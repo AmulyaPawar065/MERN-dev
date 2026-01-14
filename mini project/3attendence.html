@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendence</title>
+</head>
+<body>
+    <script>
+         let Att = ["P","A","A","P","P","A","A","P","P","P"];
+        let totabs=0;
+        let totpres=0;
+         for (let i = 0; i<10; i++) {
+            if(Att[i]=="P"){
+                totpres +=1;
+            }
+            else{
+                totabs +=1;
+            }   
+        }
+        document.writeln("Total Present:", totpres);
+        document.writeln("Total Absent:", totabs);
+
+    </script>
+</body>
+</html>

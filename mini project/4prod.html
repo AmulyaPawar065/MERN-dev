@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductStock</title>
+</head>
+
+<body>
+    <script>
+        let stock = [2, 50, 12, 30];
+        for (let i = 0; i < stock.length; i++) {
+            if (stock[i] < 20) {
+                document.writeln("Product " + (i + 1) + ": Reorder Required ");
+            }
+            else {
+                document.writeln("Product " + (i + 1) + ": Stock OK");
+            }
+        }
+    </script>
+</body>
+
+</html>
